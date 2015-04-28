@@ -1,0 +1,84 @@
+---
+layout: post-index
+permalink: /books/
+title: All Books
+permalink: /books/index.html
+description: "An archive of books."
+is-toc: true
+image:
+  feature: http://seeksky.qiniudn.com/36.jpg-clip.jpg
+  background: classy_fabric_@2X.png
+---
+
+
+<article class="hentry">
+  <h2>My Books</h2>
+  <h2>Completed</h2>
+  <div class="row">
+  {% for book in site.books %}
+	{% if book.status == "completed" %}
+	  <div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+		  <a href="/books/{{ book.id }}/">
+		  <img src="/books/{{ book.id }}/cover.jpg">
+		  </a>
+		  <div class="caption">
+		    <a href="/books/{{ book.id }}/">
+			<h3>{{ book.name }}</h3>
+			</a>
+			<h4>{{ book.author }}</h4>
+			<p>{{ book.abstract | strip_html | strip_newlines | truncate: 120 }}</p>
+			<p><a href="/books/{{ book.id }}/" class="btn btn-primary" role="button">Read</a></p>
+		  </div>
+		  
+		</div>
+	  </div>
+	{% endif %}
+  {% endfor %}
+  </div>
+  <h2>In Progress</h2>
+  <div class="row">
+  {% for book in site.books %}
+	{% if book.status == "in-progress" %}
+	  <div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+		  <a href="/books/{{ book.id }}/">
+		  <img src="/books/{{ book.id }}/cover.jpg">
+		  </a>
+		  <div class="caption">
+		    <a href="/books/{{ book.id }}/">
+			<h3>{{ book.name }}</h3>
+			</a>
+			<h4>{{ book.author }}</h4>
+			<p>{{ book.abstract | strip_html | strip_newlines | truncate: 120 }}</p>
+			<p><a href="/books/{{ book.id }}/" class="btn btn-primary" role="button">Read</a></p>
+		  </div>
+		</div>
+	  </div>
+	{% endif %}
+  {% endfor %}
+  </div>
+  <h2>Recommend Books</h2>
+  <div class="row">
+  {% for book in site.books %}
+	{% if book.status == "recommend" %}
+	  <div class="col-sm-6 col-md-4">
+		<div class="thumbnail">
+		  <a href="/books/{{ book.id }}/">
+		  <img src="/books/{{ book.id }}/cover.jpg">
+		  </a>
+		  <div class="caption">
+		    <a href="/books/{{ book.id }}/">
+			<h3>{{ book.name }}</h3>
+			</a>
+			<h4>{{ book.author }}</h4>
+			<p>{{ book.abstract | strip_html | strip_newlines | truncate: 120 }}</p>
+			<p><a href="/books/{{ book.id }}/" class="btn btn-primary" role="button">Read</a></p>
+		  </div>
+		</div>
+	  </div>
+	{% endif %}
+  {% endfor %}
+  </div>
+</article><!-- /.hentry -->
+
