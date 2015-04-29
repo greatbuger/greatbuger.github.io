@@ -27,7 +27,7 @@ owner:
 
 # Background image to be tiled on all pages
 background: ps_neutral.png
-feature: file:///D:/greatbuger.github.io/images/19.jpg
+feature:http://greatbuger.github.io/19.jpg-clip.jpg
 qiniu: http://seeksky.qiniudn.com
 
 # Analytics and webmaster tools stuff goes here
