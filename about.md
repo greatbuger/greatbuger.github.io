@@ -14,6 +14,8 @@ share: true
 ![JinlaiXu Image]({{ site.url }}/images/psb-s.jpg)
 {: .pull-right}
 
+你好
+
 Master Student, Faculty of Information Engineering\\
 Research Assistant, Robotics and Artificial Intelligence Laboratory\\
 China University of Geosciences (CUG)\\
