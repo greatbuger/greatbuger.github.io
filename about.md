@@ -9,7 +9,7 @@ image:
   creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
 ---
-# Jinlai Xu
+# Greatbuger
 ------
 ![JinlaiXu Image]({{ site.url }}/images/psb-s.jpg)
 {: .pull-right}
