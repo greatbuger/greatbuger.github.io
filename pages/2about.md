@@ -23,12 +23,12 @@ icon: glyphicon-heart
 
 ### 联系我
 
-* email: [greatbuger@gmail.com](mailto:{{ site.email }})
-* QQ: 810555869
-* Weibo: [Greatbuger](http://www.weibo.com/u/3874644628/home?wvr=5)
-* 知乎: [X Greatbuger](http://www.zhihu.com/people/X Greatbuger)
-* 豆瓣: [Gaohaoyang](http://www.douban.com/people/42525035/)
-* 豆瓣音乐人：[浩阳的小站](http://site.douban.com/haoyangaiyinyue/)
+* email:   [greatbuger@gmail.com](mailto:{{ site.email }})
+* GitHub:  [greatbuger](https://github.com/greatbuger)
+* QQ:      810555869
+* Weibo:   [Greatbuger](http://www.weibo.com/u/3874644628/home?wvr=5)
+* 知乎:    [X Greatbuger](http://www.zhihu.com/)
+
 
 ---
 
