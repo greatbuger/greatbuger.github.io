@@ -23,10 +23,10 @@ icon: glyphicon-heart
 
 ### 联系我
 
-* email: [gaohaoyang126@126.com](mailto:{{ site.email }})
-* QQ: 793940046
-* Weibo: [Haoyang](http://weibo.com/3115521wh)
-* 知乎: [Gaohaoyang](http://www.zhihu.com/people/gaohaoyang)
+* email: [greatbuger@gmail.com](mailto:{{ site.email }})
+* QQ: 810555869
+* Weibo: [Greatbuger](http://www.weibo.com/u/3874644628/home?wvr=5)
+* 知乎: [X Greatbuger](http://www.zhihu.com/people/X Greatbuger)
 * 豆瓣: [Gaohaoyang](http://www.douban.com/people/42525035/)
 * 豆瓣音乐人：[浩阳的小站](http://site.douban.com/haoyangaiyinyue/)
 
