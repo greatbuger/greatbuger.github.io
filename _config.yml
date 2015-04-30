@@ -1,76 +1,23 @@
-title:            Greatbuger's Blog
-description:      Hello
-disqus_shortname: greatbuger
-comments: true
-share: true
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://greatbuger.github.io
-relative_permalinks: true
+# Site settings
+title: HyG
+email: gaohaoyang126@126.com
+description: 浩阳的博客 前端爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Gaohaoyang
+permalink: /:year/:month/:day/:title/
 
-# Owner/author information
-owner:
-  name:           greatbuger
-  avatar:         avatar.jpg
-  bio:            "哎妈呀！我可想死你了。"
-  email:          https://mail.google.com/mail/u/0/#inbox
-  # Social networking links used in footer. Update and remove as you like.
-         
-  github:         greatbuger
-  stackexchange:  
-  linkedin:       greatbuger         
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus: 
-  
-# My books
+# Build settings
+markdown: kramdown
 
-
-# Background image to be tiled on all pages
-background: ps_neutral.png
-feature: 19.jpg
-qiniu: http://seeksky.qiniudn.com
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-46212341-5
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# Links to include in top navigation
-# For external links add external: true
-links:
-  #- title: BAE Blog(abandon)
-  #  url: http://seeksky.duapp.com
-  # external: true
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Asia/Qingdao
-future:      true
-pygments:    true
-markdown:    kramdown
-
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough","superscript"]
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:year/:month/:day/:title 
-
-# Amount of post to show on home page
-paginate: 5
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
