@@ -2,7 +2,7 @@
 layout: post
 title:  "shishi"
 date:   2015-02-15 22:14:54
-categories: javascript,python
+categories: javascript
 excerpt: 网络1
 ---
 
