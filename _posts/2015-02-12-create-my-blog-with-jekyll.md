@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Jekyll 搭建静态博客"
+title:  "shishi"
 date:   2015-02-15 22:14:54
-categories: 科学理论，python
+categories: javascript,python
 excerpt: 网络1
 ---
 
