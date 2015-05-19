@@ -24,7 +24,7 @@ icon: glyphicon-heart
 
 ---
 
-### 关于本站   
+###  友情连接   
 
-你好
+哲吊（李天师）： [greatbuger](http://lczpassion.com/)
 
